@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>抖音号批发_批量采购、渠道合作、价格最优！-抖音号购买平台</title>
+	<meta name="keywords" content="抖音号购买,抖音账号购买,抖音实名认证,买抖音号,抖音白号购买,买抖音号,抖音号批发,抖音号出售,抖音小号购买,抖音直播号购买">
+	<meta name="description" content="提供抖音账号购买、转让及抖音小号、白号、等级号、直播号、实名认证账号（含海外实名）批发与出售服务。支持抖音号购买自动发货、抖音小号自动发货，安全可靠。平台涵盖抖音号交易、抖音账号出售、抖音实名账号购买、抖音海外实名认证、抖音国际版账号购买等全方位服务，是抖音号买卖、抖音ck号购买、抖音老号新号交易的首选平台。">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="/static/douyinxiaohao/css/douyinxiaohao.css?v=1769681860">
+	<style>
+		:root {
+		    --primary: #FF0050;
+		    --primary-light: #FF4D7E;
+		    --primary-dark: #D90043;
+		    --secondary: #00C2FF;
+		    --dark: #1A1A2E;
+		    --light: #F8F9FA;
+		    --gray: #6C757D;
+		    --success: #28A745;
+		    --warning: #FFC107;
+		    --info: #17A2B8;
+		    --border: #E9ECEF;
+		    --price-red: #FF0050;
+		    --transition: all 0.3s ease;
+		    --card-radius: 15px;
+		    --btn-radius: 8px;
+		    --shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+		    --shadow-hover: 0 10px 25px rgba(0, 0, 0, 0.08);
+		    --bg-color: #ffffff;
+		    --card-bg: #ffffff;
+		    --text-primary: #1A1A2E;
+		    --text-secondary: #6C757D;
+		}
+		
+		/* 页面标题 */
+		.page-title {
+		    padding: 140px 0 60px;
+		    text-align: center;
+		    background: linear-gradient(135deg, rgba(255, 0, 80, 0.08), rgba(0, 194, 255, 0.08));
+		    margin-bottom: 60px;
+		}
+		
+		.page-title h1 {
+		    font-size: 3rem;
+		    font-weight: 800;
+		    margin-bottom: 20px;
+		    background: linear-gradient(90deg, var(--primary), var(--secondary));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		    line-height: 1.2;
+		}
+		
+		.page-title p {
+		    font-size: 1.2rem;
+		    color: var(--gray);
+		    max-width: 800px;
+		    margin: 0 auto 30px;
+		}
+		
+		/* CTA按钮 */
+		.cta-button {
+		    display: inline-block;
+		    padding: 18px 40px;
+		    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+		    color: white;
+		    text-decoration: none;
+		    border-radius: var(--btn-radius);
+		    font-size: 1.2rem;
+		    font-weight: 700;
+		    transition: var(--transition);
+		    box-shadow: 0 8px 20px rgba(255, 0, 80, 0.3);
+		    margin: 10px;
+		}
+		
+		.cta-button:hover {
+		    transform: translateY(-5px);
+		    box-shadow: 0 12px 30px rgba(255, 0, 80, 0.4);
+		    background: linear-gradient(135deg, var(--primary-dark), #C70039);
+		}
+		
+		.cta-button i {
+		    margin-right: 10px;
+		}
+		
+		/* 主要内容区 */
+		.content-section {
+		    margin-bottom: 80px;
+		}
+		
+		.section-header {
+		    text-align: center;
+		    margin-bottom: 50px;
+		}
+		
+		.section-title {
+		    font-size: 2.2rem;
+		    font-weight: 800;
+		    color: var(--text-primary);
+		    margin-bottom: 20px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    gap: 15px;
+		}
+		
+		.section-title i {
+		    color: var(--primary);
+		}
+		
+		.section-subtitle {
+		    font-size: 1.2rem;
+		    color: var(--text-secondary);
+		    max-width: 700px;
+		    margin: 0 auto;
+		    line-height: 1.6;
+		}
+		
+		/* 批发优势 */
+		.wholesale-advantages {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		    gap: 30px;
+		    margin-bottom: 60px;
+		}
+		
+		.advantage-card {
+		    background: var(--card-bg);
+		    border-radius: var(--card-radius);
+		    padding: 35px 30px;
+		    box-shadow: var(--shadow);
+		    border: 1px solid var(--border);
+		    transition: var(--transition);
+		    text-align: center;
+		    position: relative;
+		    overflow: hidden;
+		}
+		
+		.advantage-card::before {
+		    content: '';
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 5px;
+		    background: linear-gradient(90deg, var(--primary), var(--secondary));
+		}
+		
+		.advantage-card:hover {
+		    transform: translateY(-10px);
+		    box-shadow: var(--shadow-hover);
+		}
+		
+		.advantage-icon {
+		    font-size: 2.5rem;
+		    color: var(--primary);
+		    margin-bottom: 20px;
+		    display: inline-block;
+		    padding: 15px;
+		    background: rgba(255, 0, 80, 0.1);
+		    border-radius: 50%;
+		    width: 80px;
+		    height: 80px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+		
+		.advantage-title {
+		    font-size: 1.4rem;
+		    font-weight: 700;
+		    margin-bottom: 15px;
+		    color: var(--text-primary);
+		}
+		
+		.advantage-description {
+		    color: var(--text-secondary);
+		    line-height: 1.6;
+		    font-size: 1rem;
+		}
+		
+		/* 价格体系 */
+		.price-system {
+		    background: linear-gradient(135deg, rgba(255, 0, 80, 0.05), rgba(0, 194, 255, 0.05));
+		    padding: 50px;
+		    border-radius: var(--card-radius);
+		    margin-bottom: 60px;
+		    border: 1px solid rgba(255, 0, 80, 0.1);
+		}
+		
+		.price-tiers {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		    gap: 30px;
+		    margin-top: 40px;
+		}
+		
+		.price-tier {
+		    background: white;
+		    border-radius: var(--card-radius);
+		    padding: 30px;
+		    box-shadow: var(--shadow);
+		    border: 2px solid var(--border);
+		    text-align: center;
+		    transition: var(--transition);
+		}
+		
+		.price-tier:hover {
+		    border-color: var(--primary);
+		    transform: translateY(-5px);
+		    box-shadow: var(--shadow-hover);
+		}
+		
+		.tier-name {
+		    font-size: 1.3rem;
+		    font-weight: 700;
+		    margin-bottom: 15px;
+		    color: var(--text-primary);
+		}
+		
+		.tier-quantity {
+		    font-size: 2.5rem;
+		    font-weight: 800;
+		    color: var(--primary);
+		    margin-bottom: 20px;
+		}
+		
+		.tier-price {
+		    font-size: 1.8rem;
+		    font-weight: 700;
+		    color: var(--price-red);
+		    margin-bottom: 25px;
+		}
+		
+		.price-per-unit {
+		    font-size: 0.9rem;
+		    color: var(--gray);
+		    margin-bottom: 25px;
+		}
+		
+		.tier-features {
+		    list-style: none;
+		    margin: 20px 0;
+		}
+		
+		.tier-features li {
+		    margin-bottom: 10px;
+		    padding-left: 25px;
+		    position: relative;
+		    color: var(--text-secondary);
+		}
+		
+		.tier-features li::before {
+		    content: '✓';
+		    position: absolute;
+		    left: 10px;
+		    color: var(--success);
+		    font-weight: bold;
+		}
+		
+		/* 批发类型展示 */
+		.wholesale-types {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		    gap: 30px;
+		    margin-bottom: 60px;
+		}
+		
+		.type-card {
+		    background: var(--card-bg);
+		    border-radius: var(--card-radius);
+		    padding: 40px 30px;
+		    box-shadow: var(--shadow);
+		    border: 1px solid var(--border);
+		    transition: var(--transition);
+		    text-align: center;
+		}
+		
+		.type-card:hover {
+		    transform: translateY(-8px);
+		    box-shadow: var(--shadow-hover);
+		}
+		
+		.type-icon {
+		    font-size: 3rem;
+		    color: var(--primary);
+		    margin-bottom: 25px;
+		}
+		
+		.type-title {
+		    font-size: 1.8rem;
+		    font-weight: 800;
+		    margin-bottom: 20px;
+		    color: var(--text-primary);
+		}
+		
+		.type-description {
+		    color: var(--text-secondary);
+		    line-height: 1.7;
+		    font-size: 1.05rem;
+		    margin-bottom: 30px;
+		}
+		
+		.type-highlights {
+		    text-align: left;
+		    margin: 25px 0;
+		}
+		
+		.highlight-item {
+		    display: flex;
+		    align-items: center;
+		    gap: 10px;
+		    margin-bottom: 12px;
+		    color: var(--text-secondary);
+		}
+		
+		.highlight-icon {
+		    color: var(--success);
+		    font-size: 1.1rem;
+		}
+		
+		/* 合作流程 */
+		.cooperation-process {
+		    background: linear-gradient(135deg, rgba(255, 0, 80, 0.05), rgba(0, 194, 255, 0.05));
+		    padding: 50px;
+		    border-radius: var(--card-radius);
+		    margin-bottom: 60px;
+		    border: 1px solid rgba(255, 0, 80, 0.1);
+		}
+		
+		.process-steps {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		    gap: 30px;
+		    margin-top: 40px;
+		}
+		
+		.process-step {
+		    text-align: center;
+		    position: relative;
+		}
+		
+		.process-step::after {
+		    content: '→';
+		    position: absolute;
+		    right: -25px;
+		    top: 40px;
+		    font-size: 2rem;
+		    color: var(--primary);
+		}
+		
+		.process-step:last-child::after {
+		    display: none;
+		}
+		
+		.step-number {
+		    display: inline-flex;
+		    align-items: center;
+		    justify-content: center;
+		    width: 80px;
+		    height: 80px;
+		    background: linear-gradient(135deg, var(--primary), var(--secondary));
+		    color: white;
+		    border-radius: 50%;
+		    font-weight: 800;
+		    font-size: 2rem;
+		    margin-bottom: 20px;
+		    box-shadow: 0 8px 20px rgba(255, 0, 80, 0.2);
+		}
+		
+		.step-title {
+		    font-size: 1.2rem;
+		    font-weight: 700;
+		    margin-bottom: 10px;
+		    color: var(--text-primary);
+		}
+		
+		.step-description {
+		    color: var(--text-secondary);
+		    font-size: 0.95rem;
+		    line-height: 1.5;
+		}
+		
+		/* 渠道合作优势 */
+		.channel-advantages {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		    gap: 25px;
+		    margin-bottom: 60px;
+		}
+		
+		.channel-card {
+		    background: var(--card-bg);
+		    border-radius: var(--card-radius);
+		    padding: 30px;
+		    box-shadow: var(--shadow);
+		    border: 1px solid var(--border);
+		    transition: var(--transition);
+		}
+		
+		.channel-card:hover {
+		    transform: translateY(-5px);
+		    box-shadow: var(--shadow-hover);
+		}
+		
+		.channel-header {
+		    display: flex;
+		    align-items: center;
+		    gap: 15px;
+		    margin-bottom: 15px;
+		}
+		
+		.channel-icon {
+		    color: var(--success);
+		    font-size: 1.8rem;
+		}
+		
+		.channel-title {
+		    font-size: 1.2rem;
+		    font-weight: 700;
+		    color: var(--text-primary);
+		}
+		
+		.channel-description {
+		    color: var(--text-secondary);
+		    line-height: 1.6;
+		    font-size: 0.95rem;
+		}
+		
+		/* 批发保证 */
+		.guarantee-section {
+		    background: linear-gradient(135deg, var(--dark), #2D3047);
+		    padding: 60px;
+		    border-radius: var(--card-radius);
+		    margin-bottom: 60px;
+		    color: white;
+		}
+		
+		.guarantee-grid {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		    gap: 40px;
+		    margin-top: 40px;
+		}
+		
+		.guarantee-item {
+		    text-align: center;
+		    padding: 20px;
+		}
+		
+		.guarantee-icon {
+		    font-size: 2.5rem;
+		    color: var(--primary-light);
+		    margin-bottom: 20px;
+		}
+		
+		.guarantee-title {
+		    font-size: 1.3rem;
+		    font-weight: 700;
+		    margin-bottom: 10px;
+		    color: white;
+		}
+		
+		.guarantee-description {
+		    color: #B0B0B0;
+		    font-size: 0.95rem;
+		    line-height: 1.5;
+		}
+		
+		/* 底部CTA */
+		.final-cta {
+		    text-align: center;
+		    padding: 80px 20px;
+		    background: linear-gradient(135deg, rgba(255, 0, 80, 0.1), rgba(0, 194, 255, 0.1));
+		    border-radius: var(--card-radius);
+		    margin-bottom: 60px;
+		    color: var(--text-primary);
+		    border: 1px solid rgba(255, 0, 80, 0.2);
+		}
+		
+		.final-cta h2 {
+		    font-size: 2.5rem;
+		    font-weight: 800;
+		    margin-bottom: 20px;
+		    background: linear-gradient(90deg, var(--primary), var(--secondary));
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		}
+		
+		.final-cta p {
+		    font-size: 1.2rem;
+		    color: var(--text-secondary);
+		    max-width: 700px;
+		    margin: 0 auto 40px;
+		    line-height: 1.6;
+		}
+		
+		/* 响应式设计 */
+		@media (max-width: 768px) {
+		    .page-title {
+		        padding: 120px 0 40px;
+		    }
+		
+		    .page-title h1 {
+		        font-size: 2rem;
+		    }
+		
+		    .page-title p {
+		        font-size: 1.1rem;
+		    }
+		
+		    .section-title {
+		        font-size: 1.8rem;
+		    }
+		
+		    .process-steps {
+		        grid-template-columns: 1fr;
+		    }
+		
+		    .process-step::after {
+		        display: none;
+		    }
+		
+		    .guarantee-section {
+		        padding: 40px 20px;
+		    }
+		
+		    .final-cta {
+		        padding: 50px 20px;
+		    }
+		
+		    .final-cta h2 {
+		        font-size: 1.8rem;
+		    }
+		}
+		
+		@media (max-width: 480px) {
+		    .page-title h1 {
+		        font-size: 1.6rem;
+		    }
+		
+		    .cta-button {
+		        padding: 15px 30px;
+		        font-size: 1rem;
+		    }
+		
+		    .section-title {
+		        font-size: 1.5rem;
+		    }
+		
+		    .wholesale-advantages, .wholesale-types {
+		        grid-template-columns: 1fr;
+		    }
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-content">
+				<div class="logo">
+					<img src="/static/douyinxiaohao/img/logo.png" width="183" height="38" alt="抖音号购买平台">
+				</div>
+				<nav class="desktop-nav" aria-label="主导航">
+					<ul>
+						<li><a href="/">首页</a></li>
+						<li><a href="/douyin-baihao.html">抖音白号</a></li>
+						<li><a href="/douyin-xiaohao.html">抖音小号</a></li>
+						<li><a href="/douyinhao-pifa.html">抖音号批发</a></li>
+						<li><a href="/douyin-ckhao.html">抖音ck号</a></li>
+						<li><a href="/douyin-zhibohao.html">抖音直播号</a></li>
+						<li><a href="/douyin-laohao.html">抖音老号</a></li>
+						<li><a href="/#faq">常见问题</a></li>
+						<li><a href="/#testimonial">客户评价</a></li>
+					</ul>
+				</nav>
+				<button class="mobile-menu-btn" aria-label="打开菜单">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+	<div class="mobile-nav">
+		<div class="mobile-nav-header">
+			<div class="mobile-nav-logo">
+				<i class="fab fa-tiktok logo-icon"></i>
+				<span>抖音号交易</span>
+			</div>
+			<button class="close-menu" aria-label="关闭菜单">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+		<ul>
+			<li><a href="/">首页</a></li>
+			<li><a href="/douyin-baihao.html">抖音白号</a></li>
+			<li><a href="/douyin-xiaohao.html">抖音小号</a></li>
+			<li><a href="/douyinhao-pifa.html">抖音号批发</a></li>
+			<li><a href="/douyin-ckhao.html">抖音ck号</a></li>
+			<li><a href="/douyin-zhibohao.html">抖音直播号</a></li>
+			<li><a href="/douyin-laohao.html">抖音老号</a></li>
+			<li><a href="/#faq">常见问题</a></li>
+			<li><a href="/#testimonial">客户评价</a></li>
+		</ul>
+	</div>
+	<div class="overlay"></div>
+	<!-- 页面标题 -->
+	<section class="page-title">
+		<div class="container">
+			<h1>抖音号批发：批量采购、渠道合作、价格最优！</h1>
+			<p>专业抖音号批发供应，支持大规模采购需求。渠道商、MCN机构、运营团队的首选合作伙伴，提供最具竞争力的价格和完善的售后服务！</p>
+			<a href="/" class="cta-button">
+				<i class="fas fa-phone-alt"></i> 立即批发抖音号 </a>
+		</div>
+	</section>
+	<!-- 主要内容区 -->
+	<div class="container">
+		<!-- 批发优势 -->
+		<section class="content-section">
+			<div class="section-header">
+				<h2 class="section-title"><i class="fas fa-crown"></i> 抖音号批发核心优势</h2>
+				<p class="section-subtitle"> 专业批发渠道为您提供最具竞争力的价格和最优质的服务支持。 </p>
+			</div>
+			<div class="wholesale-advantages">
+				<div class="advantage-card">
+					<div class="advantage-icon">
+						<i class="fas fa-tags"></i>
+					</div>
+					<h3 class="advantage-title">最具竞争力的价格</h3>
+					<p class="advantage-description">批量采购享受阶梯价格优惠，采购量越大单价越低，提供行业内最具竞争力的批发价格，最高可享市场价6折优惠。</p>
+				</div>
+				<div class="advantage-card">
+					<div class="advantage-icon">
+						<i class="fas fa-boxes"></i>
+					</div>
+					<h3 class="advantage-title">稳定的货源供应</h3>
+					<p class="advantage-description">自有专业注册和养护团队，日稳定供应1000+账号，保证持续稳定的货源供应，支持大规模批量采购需求。</p>
+				</div>
+				<div class="advantage-card">
+					<div class="advantage-icon">
+						<i class="fas fa-truck"></i>
+					</div>
+					<h3 class="advantage-title">高效的发货速度</h3>
+					<p class="advantage-description">全自动化发货系统，支持批量导出账号信息Excel表格，最快10分钟内完成100+账号的发货处理。</p>
+				</div>
+				<div class="advantage-card">
+					<div class="advantage-icon">
+						<i class="fas fa-headset"></i>
+					</div>
+					<h3 class="advantage-title">专属客服支持</h3>
+					<p class="advantage-description">批发客户享有专属商务客服和技术支持团队，提供一对一采购咨询和7×24小时售后服务保障。</p>
+				</div>
+			</div>
+		</section>
+		<!-- 价格体系 -->
+		<section class="content-section">
+			<div class="section-header">
+				<h2 class="section-title"><i class="fas fa-chart-line"></i> 阶梯式批发价格体系</h2>
+				<p class="section-subtitle"> 根据采购数量享受不同等级的折扣优惠，量大价更优。 </p>
+			</div>
+			<div class="price-system">
+				<div class="price-tiers">
+					<div class="price-tier">
+						<div class="tier-name">小批量采购</div>
+						<div class="tier-quantity">10-50个</div>
+						<div class="tier-price">8.5折起</div>
+						<div class="price-per-unit">单价低至市场价的85%</div>
+						<ul class="tier-features">
+							<li>支持混批不同类型账号</li>
+							<li>提供批量导出表格</li>
+							<li>24小时内发货</li>
+							<li>标准售后服务</li>
+							<li>支持在线支付</li>
+						</ul>
+					</div>
+					<div class="price-tier" style="border-color: var(--primary); transform: scale(1.05);">
+						<div style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 8px 15px; border-radius: 20px; margin-bottom: 15px; font-weight: 600; display: inline-block;">最受欢迎</div>
+						<div class="tier-name">中批量采购</div>
+						<div class="tier-quantity">50-200个</div>
+						<div class="tier-price">7.5折起</div>
+						<div class="price-per-unit">单价低至市场价的75%</div>
+						<ul class="tier-features">
+							<li>全部小批量功能</li>
+							<li>账号质量优先保障</li>
+							<li>12小时内发货</li>
+							<li>专属客服支持</li>
+							<li>支持账期结算</li>
+							<li>优先技术支持</li>
+						</ul>
+					</div>
+					<div class="price-tier">
+						<div class="tier-name">大批量采购</div>
+						<div class="tier-quantity">200个以上</div>
+						<div class="tier-price">6.5折起</div>
+						<div class="price-per-unit">单价低至市场价的65%</div>
+						<ul class="tier-features">
+							<li>全部中批量功能</li>
+							<li>定制化账号需求</li>
+							<li>4小时内极速发货</li>
+							<li>渠道合作协议</li>
+							<li>月结付款支持</li>
+							<li>技术支持优先</li>
+							<li>货源优先保障</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 批发类型 -->
+		<section class="content-section">
+			<div class="section-header">
+				<h2 class="section-title"><i class="fas fa-layer-group"></i> 支持的批发账号类型</h2>
+				<p class="section-subtitle"> 多种抖音账号类型支持批量采购，满足不同业务需求。 </p>
+			</div>
+			<div class="wholesale-types">
+				<div class="type-card">
+					<div class="type-icon">
+						<i class="fas fa-user"></i>
+					</div>
+					<h3 class="type-title">抖音白号批发</h3>
+					<p class="type-description">新注册未实名抖音账号，适合需要批量运营、测试的客户。账号纯净无违规记录，支持快速上量。</p>
+					<div class="type-highlights">
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>日供应量：1000+</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>最小起批量：10个</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>支持混批：是</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>发货时效：24小时内</span>
+						</div>
+					</div>
+				</div>
+				<div class="type-card">
+					<div class="type-icon">
+						<i class="fas fa-user-check"></i>
+					</div>
+					<h3 class="type-title">实名小号批发</h3>
+					<p class="type-description">已实名认证的抖音小号，拥有中等权重和稳定表现。适合需要快速启动业务、开展直播带货的客户。</p>
+					<div class="type-highlights">
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>日供应量：500+</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>最小起批量：50个</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>账号年龄：1-6个月</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>发货时效：12小时内</span>
+						</div>
+					</div>
+				</div>
+				<div class="type-card">
+					<div class="type-icon">
+						<i class="fas fa-user-tie"></i>
+					</div>
+					<h3 class="type-title">企业蓝V批发</h3>
+					<p class="type-description">企业认证抖音账号，拥有最高权重和完整功能权限。适合品牌营销、官方账号矩阵等高端需求。</p>
+					<div class="type-highlights">
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>日供应量：100+</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>最小起批量：5个</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>定制服务：支持</span>
+						</div>
+						<div class="highlight-item">
+							<i class="fas fa-check-circle highlight-icon"></i>
+							<span>发货时效：需预订</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 合作流程 -->
+		<section class="cooperation-process">
+			<div class="section-header">
+				<h2 class="section-title" style="color: var(--text-primary);"><i class="fas fa-sync-alt"></i> 四步完成批发合作</h2>
+				<p class="section-subtitle" style="color: var(--text-secondary);"> 简单高效的批发采购流程，快速响应您的需求。 </p>
+			</div>
+			<div class="process-steps">
+				<div class="process-step">
+					<div class="step-number">1</div>
+					<h3 class="step-title">需求沟通</h3>
+					<p class="step-description">通过电话或在线方式提交采购需求，客服为您匹配最适合的账号类型和报价方案。</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">2</div>
+					<h3 class="step-title">确认订单</h3>
+					<p class="step-description">确认采购数量、价格和发货方式，签署合作协议，完成付款流程。</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">3</div>
+					<h3 class="step-title">批量发货</h3>
+					<p class="step-description">按约定时间批量发货，提供Excel格式的账号信息表格，支持API接口对接。</p>
+				</div>
+				<div class="process-step">
+					<div class="step-number">4</div>
+					<h3 class="step-title">售后支持</h3>
+					<p class="step-description">提供详细使用指导和技术支持，7×24小时售后服务，确保账号正常使用。</p>
+				</div>
+			</div>
+		</section>
+		<!-- 渠道合作优势 -->
+		<section class="content-section">
+			<div class="section-header">
+				<h2 class="section-title"><i class="fas fa-handshake"></i> 渠道合作专属权益</h2>
+				<p class="section-subtitle"> 为渠道合作伙伴提供更多专属权益和全方位支持。 </p>
+			</div>
+			<div class="channel-advantages">
+				<div class="channel-card">
+					<div class="channel-header">
+						<div class="channel-icon">
+							<i class="fas fa-star"></i>
+						</div>
+						<h3 class="channel-title">最优惠价格</h3>
+					</div>
+					<p class="channel-description">渠道商享有最优惠的采购价格，保障足够的利润空间，支持定制化价格方案。</p>
+				</div>
+				<div class="channel-card">
+					<div class="channel-header">
+						<div class="channel-icon">
+							<i class="fas fa-shield-alt"></i>
+						</div>
+						<h3 class="channel-title">货源保护</h3>
+					</div>
+					<p class="channel-description">对合作渠道商的销售区域和客户群体进行保护，避免渠道冲突和价格竞争。</p>
+				</div>
+				<div class="channel-card">
+					<div class="channel-header">
+						<div class="channel-icon">
+							<i class="fas fa-chart-line"></i>
+						</div>
+						<h3 class="channel-title">营销支持</h3>
+					</div>
+					<p class="channel-description">提供产品资料、销售话术、营销素材和技术支持，帮助您快速开拓市场。</p>
+				</div>
+				<div class="channel-card">
+					<div class="channel-header">
+						<div class="channel-icon">
+							<i class="fas fa-clock"></i>
+						</div>
+						<h3 class="channel-title">账期支持</h3>
+					</div>
+					<p class="channel-description">为优质渠道商提供月结账期支持，减轻资金压力，提高资金使用效率。</p>
+				</div>
+			</div>
+		</section>
+		<!-- 批发保证 -->
+		<section class="guarantee-section">
+			<div class="section-header">
+				<h2 class="section-title" style="color: white;"><i class="fas fa-award"></i> 抖音号批发四大保证</h2>
+				<p class="section-subtitle" style="color: #B0B0B0;"> 我们为每一笔批发订单提供全方位保障。 </p>
+			</div>
+			<div class="guarantee-grid">
+				<div class="guarantee-item">
+					<div class="guarantee-icon">
+						<i class="fas fa-lock"></i>
+					</div>
+					<h3 class="guarantee-title">账号安全保障</h3>
+					<p class="guarantee-description">所有账号均经过严格审核，确保无违规记录，提供7天售后保障期。</p>
+				</div>
+				<div class="guarantee-item">
+					<div class="guarantee-icon">
+						<i class="fas fa-shipping-fast"></i>
+					</div>
+					<h3 class="guarantee-title">准时发货保证</h3>
+					<p class="guarantee-description">承诺的发货时间内完成交付，延迟发货按约定进行补偿。</p>
+				</div>
+				<div class="guarantee-item">
+					<div class="guarantee-icon">
+						<i class="fas fa-hand-holding-usd"></i>
+					</div>
+					<h3 class="guarantee-title">价格保护政策</h3>
+					<p class="guarantee-description">签订合作协议后，合作期内价格不随意上调，保障合作稳定性。</p>
+				</div>
+				<div class="guarantee-item">
+					<div class="guarantee-icon">
+						<i class="fas fa-user-shield"></i>
+					</div>
+					<h3 class="guarantee-title">隐私数据保护</h3>
+					<p class="guarantee-description">严格保护客户信息，交易记录加密存储，绝不泄露给第三方。</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="footer-bottom">
+			<div class="container">
+				<p>&copy; 2026 douyinxiaohao.ng, All rights reserved.</p>
+				<p style="font-size: 12px; color: #888; margin-top:8px;"> 免责声明：本平台仅提供账号交易中介服务，用户需遵守抖音平台相关规定。购买后请合法使用账号。 </p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="/static/douyinxiaohao/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/static/douyinxiaohao/js/douyinxiaohao.js?v=1769681860"></script>
+
+</body>
+
+</html>
